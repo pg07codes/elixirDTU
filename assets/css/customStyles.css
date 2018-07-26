@@ -5,9 +5,17 @@ html, body{
     width: 100%;
 }
 nav{
-    padding:10px !important;
+    padding:0 !important;
 }
 #logo{
-    margin:5px;
+    margin:10px;
+}
+
+#theme{
+    background: url("../images/x (140).jpg") no-repeat fixed;
+    height:90%;
+}
+#img-group img{
+    border-radius: 7px;
 }
 
