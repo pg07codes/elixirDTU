@@ -13,19 +13,14 @@ nav{
 
 #theme{
     background: url("../images/x (140).jpg") no-repeat fixed;
+    background-size: cover;
     height:90%;
 }
 #img-group img{
     border-radius: 7px;
 }
-.info-card-group{
-    background: whitesmoke;
-}
-.info-card{
-    margin:10px;
-}
 #still-image{
     background: url("../images/yoga.jpg") no-repeat fixed;
+    background-size: cover;
     height:60%;
 }
-
