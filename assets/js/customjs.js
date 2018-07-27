@@ -9,17 +9,17 @@ $('#link1').on('click',(e)=>{
 $('#link2').on('click',(e)=>{
     e.preventDefault()
     let x=$('#who-can-join').offset().top;
-    $('body,html').animate({'scrollTop': x},800)
+    $('body,html').animate({'scrollTop': x},1000)
 })
 $('#link3').on('click',(e)=>{
     e.preventDefault()
     let x=$('#blog').offset().top;
-    $('body,html').animate({'scrollTop': x},1200)
+    $('body,html').animate({'scrollTop': x},1500)
 })
 $('#link4').on('click',(e)=>{
     e.preventDefault()
     let x=$('#connect').offset().top;
-    $('body,html').animate({'scrollTop': x},1500)
+    $('body,html').animate({'scrollTop': x},2000)
 })
 
 //smooth scroll code ends here-----------
