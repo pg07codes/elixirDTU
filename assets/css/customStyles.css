@@ -28,3 +28,25 @@ nav{
     border-top: black solid 2px;
     padding:3vh;
 }
+#blog{
+    height: 60%;
+    background: whitesmoke;
+}
+#connect{
+    background: darkgray;
+    padding:3vh;
+}
+
+#connect img{
+    height:60px;
+    width:60px;
+    margin:3vh;
+    filter: grayscale(90%);
+}
+#connect img:hover{
+    filter: grayscale(0);
+}
+#footer{
+    height:70%;
+    background: grey;
+}
