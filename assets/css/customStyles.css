@@ -29,7 +29,7 @@ nav{
     padding:3vh;
 }
 #blog{
-    height: 60%;
+    height: 80%;
     background:#f8f8f8;
 }
 #connect{
@@ -47,7 +47,7 @@ nav{
     filter: grayscale(0);
 }
 #footer{
-    height:70%;
+    height:80%;
     background: #292929;
 
 }
