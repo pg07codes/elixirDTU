@@ -7,22 +7,30 @@ html, body{
 nav{
     padding:0 !important;
 }
+
 #logo{
     margin:0;
+}
+
+.nav-link:focus{
+    border-bottom: black solid 3px;
+    outline: none;
 }
 
 #theme{
     background: url("../images/yoga-theme.jpg") no-repeat fixed;
     background-size: cover;
-    height:90%;
+    height:100%;
 }
+
 #img-group img{
     border-radius: 7px;
 }
+
 #still-image{
     background: url("../images/yoga.jpg") no-repeat fixed;
     background-size: cover;
-    height:60%;
+    height:80%;
 }
 #who-can-join p{
     border-top: black solid 2px;

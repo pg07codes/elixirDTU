@@ -14,8 +14,8 @@
 
 <body>
 <!--navbar component-->
-<nav id="home" class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-    <a class="navbar-brand" href="#home">
+<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+    <a class="navbar-brand" href="#theme">
         <img id="logo" src="./assets/images/logo-elixir.png" width="50" height="50" class="d-inline-block align-top" alt="elixir,DTU">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,7 +24,7 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-                <a class="nav-link" href="#home">Home</a>
+                <a class="nav-link" id="link" href="#theme">Home</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" id="link1" href="#what-we-do">What we do ?</a>
@@ -46,10 +46,10 @@
 <div id="theme"></div>
 
 <!--about US part-->
-<div class="container mt-5" id="what-we-do">
+<div class="container mt-5 mb-5" id="what-we-do">
     <div class="row justify-content-center">
-        <h1 class="col-md-9" data-aos="slide-left" data-aos-duration="600">What we do.</h1>
-        <p class="col-md-9" data-aos="slide-left" data-aos-duration="900">
+        <h1 class="col-md-9" data-aos="slide-right" data-aos-duration="600">What we do.</h1>
+        <p class="col-md-9" data-aos="slide-right" data-aos-duration="900">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
             minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex e
@@ -80,22 +80,22 @@
         </p>
     </div>
     <div id="img-group" class="row justify-content-center">
-        <div class="col-md-3 m-3" data-aos="flip-left" data-aos-duration="600">
+        <div class="col-md-3 m-3" data-aos="zoom-in" data-aos-duration="600">
             <img src="./assets/images/x%20(142).jpg" height="300px" width="300px" class="img-fluid" alt="Responsive image">
         </div>
-        <div class="col-md-3 m-3" data-aos="flip-right" data-aos-duration="600">
+        <div class="col-md-3 m-3" data-aos="zoom-out" data-aos-duration="600">
             <img src="./assets/images/x%20(141).jpg" height="300px" width="300px" class="img-fluid" alt="Responsive image">
         </div>
-        <div class="col-md-3 m-3" data-aos="flip-down" data-aos-duration="600">
+        <div class="col-md-3 m-3" data-aos="zoom-out" data-aos-duration="600">
             <img src="./assets/images/x%20(140).jpg" height="300px" width="300px" class="img-fluid" alt="Responsive image">
         </div>
-        <div class="col-md-3 m-3" data-aos="flip-right" data-aos-duration="600">
+        <div class="col-md-3 m-3" data-aos="zoom-in" data-aos-duration="600">
             <img src="./assets/images/x%20(141).jpg" height="300px" width="300px" class="img-fluid" alt="Responsive image">
         </div>
-        <div class="col-md-3 m-3" data-aos="flip-left" data-aos-duration="600">
+        <div class="col-md-3 m-3" data-aos="zoom-out" data-aos-duration="600">
             <img src="./assets/images/x%20(140).jpg" height="300px" width="300px" class="img-fluid" alt="Responsive image">
         </div>
-        <div class="col-md-3 m-3" data-aos="flip-up" data-aos-duration="600">
+        <div class="col-md-3 m-3" data-aos="zoom-in" data-aos-duration="600">
             <img src="./assets/images/x%20(142).jpg" height="300px" width="300px" class="img-fluid" alt="Responsive image">
         </div>
     </div>
@@ -257,7 +257,7 @@
 <script>
     AOS.init({
         once:true,
-        offset:70,
+        offset:222,
     });
 </script>
 <script src="./assets/js/customjs.js"></script>
