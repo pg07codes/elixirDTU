@@ -9,6 +9,11 @@ let blog=$('#blog').offset().top  - 63;
 let connect=$('#connect').offset().top  - 63;
 
 //smooth scroll code here-----------
+
+$('#logo').on('click',(e)=>{
+    e.preventDefault()
+    $('body,html').animate({'scrollTop': theme},500)
+})
 $('#link').on('click',(e)=>{
     e.preventDefault()
     $('body,html').animate({'scrollTop': theme},500)
