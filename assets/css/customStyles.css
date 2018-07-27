@@ -12,7 +12,7 @@ nav{
 }
 
 #theme{
-    background: url("../images/x (140).jpg") no-repeat fixed;
+    background: url("../images/yoga-theme.jpg") no-repeat fixed;
     background-size: cover;
     height:90%;
 }
@@ -30,10 +30,10 @@ nav{
 }
 #blog{
     height: 60%;
-    background: whitesmoke;
+    background:#f8f8f8;
 }
 #connect{
-    background: darkgray;
+    background: linear-gradient(to right, rgba(200,120,180,0), rgba(25,120,200,1));
     padding:3vh;
 }
 
@@ -48,5 +48,6 @@ nav{
 }
 #footer{
     height:70%;
-    background: grey;
+    background: #292929;
+
 }
