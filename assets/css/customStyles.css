@@ -24,3 +24,7 @@ nav{
     background-size: cover;
     height:60%;
 }
+#who-can-join p{
+    border-top: black solid 2px;
+    padding:3vh;
+}
