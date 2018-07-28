@@ -10,7 +10,9 @@ nav{
     padding:0 !important;
     background: #ffe66d;
 }
-
+.nav-link{
+    font-size: 10pt;
+}
 #logo{
     margin:2px;
 }
@@ -19,7 +21,12 @@ nav{
     border-bottom: black solid 3px;
     outline: none;
 }
-
+.banner{
+    background:#ffe66d;
+}
+.banner .heading{
+    padding:35vh 3vh;
+}
 #theme{
     background: url("../images/yoga-theme.jpg") no-repeat fixed;
     background-size: cover;

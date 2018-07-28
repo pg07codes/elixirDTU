@@ -2,7 +2,7 @@
 
 //calculating offset from tops
 
-let theme=$('#theme').offset().top - 63;
+let bannerHead=$('#banner-head').offset().top;
 let whatWeDo=$('#what-we-do').offset().top - 63;
 let whoCanJoin=$('#who-can-join').offset().top  - 63;
 let blog=$('#blog').offset().top  - 63;
@@ -12,11 +12,11 @@ let connect=$('#connect').offset().top  - 63;
 
 $('#logo').on('click',(e)=>{
     e.preventDefault()
-    $('body,html').animate({'scrollTop': theme},500)
+    $('body,html').animate({'scrollTop': bannerHead},500)
 })
 $('#link').on('click',(e)=>{
     e.preventDefault()
-    $('body,html').animate({'scrollTop': theme},500)
+    $('body,html').animate({'scrollTop': bannerHead},500)
 })
 $('#link1').on('click',(e)=>{
     e.preventDefault()
