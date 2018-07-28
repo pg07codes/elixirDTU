@@ -3,7 +3,7 @@ html, body{
     padding:0;
     height: 100%;
     width: 100%;
-    background: #545454;
+    background: #dff4e9;
     background-size: cover;
 }
 nav{
@@ -79,7 +79,7 @@ nav{
     bottom: 0;
     left: 0;
     transform-origin: bottom left;
-    transform: skewY(3deg);
+    transform: skewY(6deg);
 }
 
 #connect img{
@@ -102,7 +102,7 @@ nav{
     padding: 3vh;
     margin-top: 100px;
     margin-bottom: 100px;
-    background: #cce8cc;
+    background: #93dbb3;
 }
 #blog::before{
     position: absolute;
@@ -139,7 +139,7 @@ nav{
     box-sizing: border-box;
     padding: 5vh;
     margin-bottom: 180px;
-    background:#F4F5F1;
+    background:#cce8cc;
 }
 
 #what-we-do::after{
@@ -205,7 +205,7 @@ nav{
     top:0;
     left:0;
     z-index:9999;
-    background: #d4dccd;
+    background:#5ac88b;
 }
 #preload .loader{
     position: absolute;
