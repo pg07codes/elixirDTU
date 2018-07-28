@@ -27,6 +27,16 @@ nav{
 .banner .heading{
     padding:35vh 3vh;
 }
+@keyframes animateHeader{
+    0%{color:cornflowerblue}
+    25%{color: #d4dccd}
+    50%{color: #5ac88b}
+    75%{color: #ffe66d}
+    100%{ color: cornflowerblue}
+}
+.banner h1{
+    animation: animateHeader infinite 4s linear;
+}
 #theme{
     background: url("../images/yoga-theme.jpg") no-repeat fixed;
     background-size: cover;
