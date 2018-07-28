@@ -60,3 +60,11 @@ $(window).on('scroll',()=>{
 
 })
 // code for changing focus on current scroll nav-element ends here
+
+
+//preloader removal code
+$(window).on('load',()=>{
+    $("#preload").css('display','none')
+})
+
+//preloader removal code here

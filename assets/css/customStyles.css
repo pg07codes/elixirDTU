@@ -198,6 +198,20 @@ nav{
     transform-origin: top left;
     transform: skewY(-1deg);
 }
+#preload{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left:0;
+    z-index:9999;
+    background: #d4dccd;
+}
+#preload .loader{
+    position: absolute;
+    top:50%;
+    left:50%;
+}
 
 
 
