@@ -79,7 +79,7 @@ nav{
     bottom: 0;
     left: 0;
     transform-origin: bottom left;
-    transform: skewY(5deg);
+    transform: skewY(3deg);
 }
 
 #connect img{
@@ -143,8 +143,7 @@ nav{
     box-sizing: border-box;
     padding: 5vh;
     margin-bottom: 180px;
-    background: plum;
-    color: #ada8be;
+    background: #ada8be;
 }
 
 #what-we-do::after{
@@ -165,7 +164,7 @@ nav{
     position: relative;
     box-sizing: border-box;
     margin-bottom: 150px;
-    color: #d4dccd;
+    background: #d4dccd;
 }
 
 #who-can-join::after{
@@ -200,7 +199,7 @@ nav{
     bottom: 0;
     left: 0;
     transform-origin: top left;
-    transform: skewY(-2deg);
+    transform: skewY(-1deg);
 }
 
 
