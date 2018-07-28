@@ -3,10 +3,12 @@ html, body{
     padding:0;
     height: 100%;
     width: 100%;
+    background: #545454;
+    background-size: cover;
 }
 nav{
     padding:0 !important;
-    background: #ffc728;
+    background: #ffe66d;
 }
 
 #logo{
@@ -33,6 +35,7 @@ nav{
     background-size: cover;
     height:80%;
 }
+
 #who-can-join p{
     border-top: black solid 2px;
     padding:3vh;
@@ -42,8 +45,41 @@ nav{
     background:#f8f8f8;
 }
 #connect{
-    background: linear-gradient(to right, rgba(200,120,180,0), rgba(25,120,200,1));
+    background: firebrick;
     padding:3vh;
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+#connect::before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform-origin: top left;
+    transform: skewY(-4deg);
+}
+#connect::after{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform-origin: bottom left;
+    transform: skewY(5deg);
 }
 
 #connect img{
@@ -57,7 +93,7 @@ nav{
 }
 #footer{
     height:80%;
-    background: #292929;
+    background: #545454;
 }
 
 #who-can-join{
@@ -69,7 +105,8 @@ nav{
     box-sizing: border-box;
     padding: 3vh;
     margin-top: 100px;
-    background: #00ab6c;
+    margin-bottom: 100px;
+    background: #cce8cc;
 }
 #blog::before{
     position: absolute;
@@ -83,15 +120,31 @@ nav{
     bottom: 0;
     left: 0;
     transform-origin: top left;
-    transform: skewY(-3deg);
+    transform: skewY(-6deg);
 }
+
+#blog::after{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform-origin: bottom left;
+    transform: skewY(6deg);
+}
+
 #what-we-do{
     position: relative;
     box-sizing: border-box;
     padding: 5vh;
-    margin-bottom: 200px;
+    margin-bottom: 180px;
     background: plum;
-    color: #fff;
+    color: #ada8be;
 }
 
 #what-we-do::after{
@@ -106,13 +159,13 @@ nav{
     bottom: 0;
     left: 0;
     transform-origin: top left;
-    transform: skewY(8deg);
+    transform: skewY(6deg);
 }
 #who-can-join{
     position: relative;
     box-sizing: border-box;
     margin-bottom: 150px;
-    color: #fff;
+    color: #d4dccd;
 }
 
 #who-can-join::after{
@@ -128,6 +181,26 @@ nav{
     left: 0;
     transform-origin: top left;
     transform: skewY(4deg);
+}
+#footer{
+    position: relative;
+    box-sizing: border-box;
+    padding: 3vh;
+    margin-top: 100px;
+}
+#footer::before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform-origin: top left;
+    transform: skewY(-2deg);
 }
 
 

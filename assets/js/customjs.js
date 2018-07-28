@@ -42,6 +42,7 @@ $("#link").focus()
 
 $(window).on('scroll',()=>{
     let currentScroll=$(window).scrollTop()
+
     if(currentScroll>connect){
         $("#link4").focus()
     }
