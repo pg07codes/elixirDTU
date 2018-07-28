@@ -43,16 +43,16 @@ $("#link").focus()
 $(window).on('scroll',()=>{
     let currentScroll=$(window).scrollTop()
 
-    if(currentScroll>connect){
+    if(currentScroll>connect-63){
         $("#link4").focus()
     }
-    else if(currentScroll>blog){
+    else if(currentScroll>blog-63){
         $("#link3").focus()
     }
-    else if(currentScroll>whoCanJoin){
+    else if(currentScroll>whoCanJoin-63){
         $("#link2").focus()
     }
-    else if(currentScroll>whatWeDo){
+    else if(currentScroll>whatWeDo-63){
         $("#link1").focus()
     }
     else
