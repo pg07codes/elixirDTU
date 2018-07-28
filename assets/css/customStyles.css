@@ -90,10 +90,18 @@ nav{
 }
 
 #connect img{
-    height:40px;
-    width:40px;
+    height:50px;
+    width:50px;
     margin:3vh;
     filter: grayscale(90%);
+}
+@media screen and (max-width:768px) {
+    #connect img{
+        height:40px;
+        width:40px;
+        margin:2vh;
+        filter: grayscale(0);
+    }
 }
 #connect img:hover{
     filter: grayscale(0);
