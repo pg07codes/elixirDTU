@@ -45,7 +45,7 @@ nav{
     background:#f8f8f8;
 }
 #connect{
-    background: firebrick;
+    background: #dc493a;
     padding:3vh;
     position: relative;
     box-sizing: border-box;
@@ -96,10 +96,6 @@ nav{
     background: #545454;
 }
 
-#who-can-join{
-    background: lightskyblue;
-    padding:3vh;
-}
 #blog{
     position: relative;
     box-sizing: border-box;
@@ -143,7 +139,7 @@ nav{
     box-sizing: border-box;
     padding: 5vh;
     margin-bottom: 180px;
-    background: #ada8be;
+    background:#F4F5F1;
 }
 
 #what-we-do::after{
@@ -165,6 +161,7 @@ nav{
     box-sizing: border-box;
     margin-bottom: 150px;
     background: #d4dccd;
+    padding:3vh;
 }
 
 #who-can-join::after{
