@@ -99,21 +99,17 @@ nav{
     transform: skewY(6deg);
 }
 
-#connect img{
-    height:50px;
-    width:50px;
+#connect .sm_handles{
     margin:3vh;
     filter: grayscale(90%);
 }
 @media screen and (max-width:768px) {
-    #connect img{
-        height:40px;
-        width:40px;
+    #connect .sm_handles{
         margin:2vh;
         filter: grayscale(0);
     }
 }
-#connect img:hover{
+#connect .sm_handles:hover{
     filter: grayscale(0);
 }
 #footer{
