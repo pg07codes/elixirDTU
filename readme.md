@@ -8,5 +8,5 @@
 - our motto is to be fit and help other become fit
 - we are currently growing rapidly in DTU and other colleges in NCR
 - this website is currently in progress. PULL REQUEST WELCOME.
-- currently hosted at pg07codes.github.io/elixirDTU
+- currently hosted at pg07codes.github.io/elixirDTU.
 ```
