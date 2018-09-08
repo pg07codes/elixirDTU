@@ -14,7 +14,7 @@ nav{
     font-size: 10pt;
 }
 #logo{
-    margin:2px;
+    margin:15px 25px;
 }
 
 .nav-link:focus{
@@ -27,18 +27,9 @@ nav{
 .banner .heading{
     padding:35vh 3vh;
 }
-@keyframes animateHeader{
-    0%{color:cornflowerblue}
-    25%{color: #d4dccd}
-    50%{color: #5ac88b}
-    75%{color: #ffe66d}
-    100%{ color: cornflowerblue}
-}
-.banner h1{
-    animation: animateHeader infinite 4s linear;
-}
+
 #theme{
-    background: url("../images/yoga-theme.jpg") no-repeat fixed;
+    background: url("../images/yoga-theme.jpg") no-repeat fixed center;
     background-size: cover;
     height:100%;
 }
@@ -48,7 +39,7 @@ nav{
 }
 
 #still-image{
-    background: url("../images/yoga.jpg") no-repeat fixed;
+    background: url("../images/yoga.jpg") no-repeat fixed center;
     background-size: cover;
     height:80%;
 }
@@ -67,7 +58,6 @@ nav{
     position: relative;
     box-sizing: border-box;
     margin-top: 100px;
-    margin-bottom: 100px;
 
 }
 #connect::before{
@@ -84,37 +74,17 @@ nav{
     transform-origin: top left;
     transform: skewY(-4deg);
 }
-#connect::after{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    content: '';
-    background: inherit;
-    z-index: -1;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    transform-origin: bottom left;
-    transform: skewY(6deg);
-}
 
 #connect .sm_handles{
     margin:3vh;
-    filter: grayscale(90%);
 }
 @media screen and (max-width:768px) {
     #connect .sm_handles{
-        margin:2vh;
-        filter: grayscale(0);
+        margin:1vh;
     }
-}
-#connect .sm_handles:hover{
-    filter: grayscale(0);
-}
-#footer{
-    height:80%;
-    background: #545454;
+    .nav-link{
+        margin-left:25px;
+    }
 }
 
 #blog{
@@ -198,26 +168,6 @@ nav{
     left: 0;
     transform-origin: top left;
     transform: skewY(4deg);
-}
-#footer{
-    position: relative;
-    box-sizing: border-box;
-    padding: 3vh;
-    margin-top: 100px;
-}
-#footer::before{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    content: '';
-    background: inherit;
-    z-index: -1;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    transform-origin: top left;
-    transform: skewY(-1deg);
 }
 #preload{
     position: fixed;
