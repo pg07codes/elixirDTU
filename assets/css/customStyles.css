@@ -18,7 +18,7 @@ nav{
 }
 
 .nav-link:focus{
-    border-bottom: black solid 3px;
+    border-bottom: rgba(0,0,0,0.3) solid 3px;
     outline: none;
 }
 .banner{
@@ -45,7 +45,7 @@ nav{
 }
 
 #who-can-join p{
-    border-top: black solid 2px;
+    border-top: rgba(120,150,130,0.5) solid 2px;
     padding:3vh;
 }
 #blog{
