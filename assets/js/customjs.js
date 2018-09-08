@@ -3,24 +3,24 @@
 //calculating offset from tops
 
 let bannerHead=$('#banner-head').offset().top;
-let whatWeDo=$('#what-we-do').offset().top - 63;
-let whoCanJoin=$('#who-can-join').offset().top  - 63;
-let blog=$('#blog').offset().top  - 63;
-let connect=$('#connect').offset().top  - 63;
+let whatWeDo=$('#what-we-do').offset().top - 50;
+let whoCanJoin=$('#who-can-join').offset().top  - 50;
+let blog=$('#blog').offset().top  - 50;
+let connect=$('#connect').offset().top  - 50;
 
 //smooth scroll code here-----------
 
 $('#logo').on('click',(e)=>{
     e.preventDefault()
-    $('body,html').animate({'scrollTop': bannerHead},500)
+    $('body,html').animate({'scrollTop': bannerHead},700)
 })
 $('#link').on('click',(e)=>{
     e.preventDefault()
-    $('body,html').animate({'scrollTop': bannerHead},500)
+    $('body,html').animate({'scrollTop': bannerHead},600)
 })
 $('#link1').on('click',(e)=>{
     e.preventDefault()
-    $('body,html').animate({'scrollTop': whatWeDo},500)
+    $('body,html').animate({'scrollTop': whatWeDo},600)
 })
 $('#link2').on('click',(e)=>{
     e.preventDefault()

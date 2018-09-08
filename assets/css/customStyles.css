@@ -8,7 +8,7 @@ html, body{
 }
 nav{
     padding:0 !important;
-    background: #ffe66d;
+    background: #613F75;
 }
 .nav-link{
     font-size: 10pt;
@@ -22,10 +22,10 @@ nav{
     outline: none;
 }
 .banner{
-    background:#ffe66d;
+    background:#613F75;
 }
 .banner .heading{
-    padding:35vh 3vh;
+    padding:45vh 3vh;
 }
 
 #theme{
