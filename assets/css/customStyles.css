@@ -77,6 +77,11 @@ nav{
 
 #connect .sm_handles{
     margin:3vh;
+    transition: color 500ms;
+}
+#connect .sm_handles:hover{
+    color: white;
+    transition: color 900ms;
 }
 @media screen and (max-width:768px) {
     #connect .sm_handles{
