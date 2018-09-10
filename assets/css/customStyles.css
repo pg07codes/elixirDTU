@@ -10,6 +10,11 @@ nav{
     padding:0 !important;
     background: #613F75;
 }
+.navbar{
+    -webkit-box-shadow: 0 6px 3px -3px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 5px 3px -3px rgba(0,0,0,0.2);
+    box-shadow: 0 6px 2px -4px rgba(0,0,0,0.2);
+}
 .nav-link{
     font-size: 10pt;
 }
@@ -83,7 +88,7 @@ nav{
     color: white;
     transition: color 900ms;
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:992px) {
     #connect .sm_handles{
         margin:1vh;
     }
