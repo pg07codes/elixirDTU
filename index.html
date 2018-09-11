@@ -54,9 +54,9 @@
 <!--preloader ends here-->
 
 <!--navbar component-->
-<nav class="navbar navbar-expand-lg fixed-top navbar-light">
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark">
     <a class="navbar-brand" href="#banner-head">
-        <img id="logo" src="./assets/images/logo-elixir.png" width="50" height="50" class="d-inline-block align-top" alt="elixir,DTU">
+        <img id="logo" src="./assets/images/LogoMono.png" width="40" height="50" class="d-inline-block align-top" alt="elixir,DTU">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -64,19 +64,17 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-                <a class="nav-link" id="link" href="#banner-head">Home</a>
+
+                <a class="nav-link" id="link" href="#banner-head"><i class="fas fa-home fa-nav"></i>Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" id="link1" href="#what-we-do">What we do ?</a>
+                <a class="nav-link" id="link1" href="#what-we-do"><i class="fas fa-pen-fancy fa-nav"></i>About Us</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" id="link2" href="#who-can-join">Who can join ?</a>
+                <a class="nav-link" id="link2" href="#who-can-join"><i class="fas fa-suitcase fa-nav"></i>Who can join ?</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" id="link3" href="#blog">Our Blog</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="link4" href="#connect">Connect</a>
+                <a class="nav-link" id="link4" href="#connect"><i class="fas fa-comment-alt fa-nav"></i>Connect</a>
             </li>
         </ul>
     </div>
@@ -85,10 +83,10 @@
     <div class="container-fluid banner" id="banner-head">
         <div class="row justify-content-center heading">
             <div class="col-md-10 ">
-                <h1 class="text-center" style="font-weight: lighter; font-size: 6vw; letter-spacing: 5pt; border-bottom: #dc493a solid 4px;">ELIXIR</h1>
+                <h1 class="text-center" style="color:whitesmoke; font-weight: lighter; font-size: 6vw; letter-spacing: 5pt; border-bottom: #9D6A2A solid 2px;">ELIXIR</h1>
             </div>
             <div class="col-md-10">
-                <h3 class="text-center" style="font-weight:bolder; font-size: 1.8vw">the health and fitness society of Delhi Technological University</h3>
+                <h3 class="text-center" style="color:rgba(255, 255, 255, 0.6);font-size: 1.8vw">the health society of Delhi Technological University</h3>
             </div>
         </div>
     </div>
@@ -98,8 +96,8 @@
 <!--about US part-->
 <div class="container-fluid" id="what-we-do">
     <div class="row justify-content-center">
-        <h1 class="col-md-9" data-aos="slide-down" data-aos-duration="600"><i class="fas fa-check-double" style="margin:2vh; color:#749C75;"></i>What we do.</h1>
-        <p class="col-md-9" data-aos="slide-up" data-aos-duration="900" style="color: black; font-weight: bold">
+        <h1 class="col-md-9" data-aos="slide-down" data-aos-duration="600"><i class="fas fa-check-double" style="margin:2vh; color:#EF5324;"></i>What we do.</h1>
+        <p class="col-md-9" data-aos="slide-up" data-aos-duration="900">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
             minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex e
@@ -153,123 +151,69 @@
 </div>
 <!--about US part ends here-->
 
-<div id="still-image"></div>
 <!--who can join us-->
-<div class="container-fluid info-card-group" id="who-can-join">
+<div class="container-fluid info-card-group" id="who-can-join-us">
+<!--this section links to the #who-can-join-page component-->
     <div class="row justify-content-center">
-        <div class="col-md-9 mt-5">
-            <h1><i class="fas fa-handshake" style="margin:2vh; color:#749C75;"></i>Who can join us?</h1>
-        </div>
-    </div>
-    <!--info card here---->
-    <div class="row justify-content-center">
-        <div class="col-md-9 mt-5">
-            <h3 style="display: inline-block;" data-aos="slide-up" data-aos-duration="600"><i class="fas fa-lightbulb" style="margin:1vh; color:#749C75;"></i>Web developers and designers </h3>
-            <p data-aos="slide-down" data-aos-duration="500" style="color: black; font-weight: bold" >ncididunt ut labore et dolore magna aliqua. Ut enim ad
-                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex e
-                a commodo consequat. Duis aute irure dolor i
-                ncididunt ut labore et dolore magna aliqua. Ut enim ad
-                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex e
-                </p>
-        </div>
-    </div>
-    <!--info card ends here---->
+        <div class="col-md-5 col-sm-6 left-box">
+            <div class="row justify-content-center mt-5">
+                <div class="col-md-12 col-sm-12 mt-4 mb-4">
+                    <h2 align="center" style="color: whitesmoke">Participate in sessions</h2>
+                </div>
+                <div class="col-md-12 col-md-12">
+                    <hr style="margin:10px auto; width:60px; border: 2px solid #5ac88b; background: #5ac88b">
+                </div>
+                <div class="col-md-12 col-sm-12">
+                    <p align="center">Being healthy is the best gift you can give to yourself.
+                        Participate in the various sessions organised by Elixir by registering with us
+                        and be healthy and fit.</p>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                    <button class="btn btn-outline-success">Register to attend</button>
+                </div>
 
-    <div class="row justify-content-center">
-        <div class="col-md-9 mt-5">
-            <h3 style="display: inline-block;"  data-aos="slide-up" data-aos-duration="600"><i class="fas fa-lightbulb" style="margin:1vh; color:#749C75;"></i>Graphic designers</h3>
-            <p data-aos="slide-down" data-aos-duration="500" style="color: black; font-weight: bold">ncididunt ut labore et dolore magna aliqua. Ut enim ad
-                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex e
-                a commodo consequat. Duis aute irure dolor i
-                ncididunt ut labore et dolore magna aliqua. Ut enim ad
-                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex e
-                a commodo consequat. Duis aute irure dolor i
-                ncididunt ut labore et doli</p>
+            </div>
+        </div>
+        <div class="col-md-5 col-sm-6 mb-5">
+            <div class="row justify-content-center mt-5">
+                <div class="col-md-12 col-sm-12 mt-4 mb-4">
+                    <h2 align="center" style="color: whitesmoke">Become a team member</h2>
+                </div>
+                <div class="col-md-12 col-md-12">
+                    <hr style="margin:10px auto; width:60px; border: 2px solid #5ac88b; background: #5ac88b">
+                </div>
+                <div class="col-md-12 col-sm-12">
+                    <p align="center">You can apply to be a member of the organising team and
+                        be a part of the various departments at Elixir — Content,
+                        PR & Publicity, IT & Design, Corporate, Logistics, Health Expert.</p>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                    <a href="./JOINING-ELIXIR.html">
+                        <button class="btn btn-outline-success">Apply for membership</button>
+                    </a>
+                </div>
+
+            </div>
         </div>
     </div>
-    <!--info card ends here---->
-
-    <div class="row justify-content-center">
-        <div class="col-md-9 mt-5">
-            <h3 style="display: inline-block;"  data-aos="slide-up" data-aos-duration="600"><i class="fas fa-lightbulb" style="margin:1vh; color:#749C75;"></i>Content Writers</h3>
-            <p data-aos="slide-down" data-aos-duration="500" style="color: black; font-weight: bold">ncididunt ut labore et dolore magna aliqua. Ut enim ad
-                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex e
-                a commodo consequat. Duis aute irure dolor i
-                ncididunt ut labore et dolore magna aliqua. Ut enim ad
-                minim veniam, quis rure dolor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex e
-                a commodo consequat. Duis aute irure dolor i</p>
-        </div>
-    </div>
-    <!--info card ends here---->
-
-    <div class="row justify-content-center">
-        <div class="col-md-9 mt-5">
-            <h3 style="display: inline-block;"  data-aos="slide-up" data-aos-duration="600"><i class="fas fa-lightbulb" style="margin:1vh; color:#749C75;"></i>Corporate Managers</h3>
-            <p data-aos="slide-down" data-aos-duration="500" style="color: black; font-weight: bold">ncididunt ut labore et dolore magna aliqua. Ut enim ad
-                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex e
-                a commodo consequat. Duis aute irure dolor i
-                ncididunt ut labore et dolore magna aliqua. Ut enim ad
-                minim veniam, quis noe dolor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex e
-                a commodo consequat. Duis aute irure dolor i</p>
-        </div>
-    </div>
-    <!--info card ends here---->
-
-    <div class="row justify-content-center">
-        <div class="col-md-9 mt-5">
-            <h3 style="display: inline-block;"  data-aos="slide-up" data-aos-duration="600"><i class="fas fa-lightbulb" style="margin:1vh; color:#749C75;"></i>Health and fitness instructors</h3>
-            <p data-aos="slide-down" data-aos-duration="500" style="color: black; font-weight: bold">ncididunt ut labore et dolore magna aliqua. Ut enim ad
-                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex e
-                a commodo consequat. Duis aute irure dolor i
-                ncididunt ut labore ena aliqua. Ut enim ad
-                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex e
-                a commodo consequat. Duis aute irure dolor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex e
-                a commodo consequat. Duis aute irure dolor i</p>
-        </div>
-    </div>
-    <!--info card ends here---->
-
-    <!--join here button--->
-    <div class="row justify-content-center">
-        <div class="col-md-6 mt-5" data-aos="slide-up" data-aos-duration="500">
-            <h2 style="display: inline-block; margin:1vh 1vh;">Interested in joining Us?</h2>
-            <button class="btn btn-danger">APPLY !</button>
-        </div>
-
-    </div>
-    <!--join here button end--->
 
 </div>
 <!--who can join us ends here-->
 
-<!--blog link and latest post-->
-<div class="container-fluid" id="blog">
-    <div class="row justify-content-center">
-    <div class="col-md-10 mt-5">
-        <h2 style="display: inline-block;"><i class="fab fa-readme fa-2x" style="margin:1vh; color:#749C75;"></i>Love to read? Have a look at our medium blog!!</h2>
-    </div>
-    </div>
-</div>
-<!--blog link and latest post ends-->
-
 <!--connect with us-->
 <div class="container-fluid" id="connect">
     <div class="row justify-content-center">
-        <div class="col-md-4 mt-5" data-aos="slide-down" data-aos-duration="800">
-            <h2 style="display: inline-block;"><i class="fas fa-hand-peace fa-2x" style="margin:1vh; color:#749C75;"></i>Let's connect !!</h2>
+        <div class="col-md-4 col-sm-6 mt-5" data-aos="slide-down" data-aos-duration="800">
+            <h2 style="color:#FFF; display: inline-block;"><i class="fas fa-hand-peace fa-2x" style="margin:2vh; color:#EF5324;"></i>Let's connect !!</h2>
         </div>
     </div>
     <div class="row justify-content-center">
-        <div class="col-md-5 col-sm-10 mt-3" style="font-size: 24pt" >
+        <div class="col-md-4 col-sm-6 mt-3" style="font-size: 24pt" >
             <a href="https://www.facebook.com/elixirHealthSociety/" target="_blank"><i class="sm_handles fab fa-facebook-f"></i></a>
-            <a href="./WIP.html" target="_blank"><i class="sm_handles fab fa-medium-m"></i></a>
+            <a href="#" target="_blank"><i class="sm_handles fab fa-medium-m"></i></a>
             <a href="mailto:elixir.healthsociety@gmail.com"><i class=" sm_handles far fa-lg fa-envelope-open"></i></a>
             <a href="https://www.linkedin.com/company/elixir-dtu-health-club-123/"><i class=" sm_handles fab fa-lg fa-linkedin-in"></i></a>
             <a href="https://www.instagram.com/elixir.healthsociety/" target="_blank"><i class="sm_handles fab fa-lg fa-instagram"></i></a>
-            <a href="./WIP.html" target="_blank"><i class="sm_handles fab fa-youtube"></i></a>
         </div>
     </div>
 </div>

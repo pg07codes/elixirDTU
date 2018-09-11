@@ -8,7 +8,7 @@ html, body{
 }
 nav{
     padding:0 !important;
-    background: #613F75;
+    background: #4D2638;
 }
 .navbar{
     -webkit-box-shadow: 0 6px 3px -3px rgba(0,0,0,0.2);
@@ -17,17 +17,27 @@ nav{
 }
 .nav-link{
     font-size: 10pt;
+    color:rgba(255, 255, 255, 0.75) !important;
+    border-bottom:2px solid transparent;
+    transition: border-bottom 600ms;
+}
+.fa-nav {
+    margin-right:5px;
+    color:#9D6A2A;
 }
 #logo{
     margin:15px 25px;
 }
-
-.nav-link:focus{
-    border-bottom: rgba(0,0,0,0.3) solid 3px;
+.nav-link:active,.nav-link:focus{
     outline: none;
 }
+.nav-link:hover{
+    border-bottom:2px solid #EF5324;
+    outline: none;
+    transition: border-bottom 700ms;
+}
 .banner{
-    background:#613F75;
+    background:#4D2638;
 }
 .banner .heading{
     padding:45vh 3vh;
@@ -46,19 +56,14 @@ nav{
 #still-image{
     background: url("../images/yoga.jpg") no-repeat fixed center;
     background-size: cover;
-    height:80%;
+    height:66%;
 }
-
-#who-can-join p{
+#who-can-join-page p{
     border-top: rgba(120,150,130,0.5) solid 2px;
     padding:3vh;
 }
-#blog{
-    height: 80%;
-    background:#f8f8f8;
-}
 #connect{
-    background: #dc493a;
+    background:#13181d;
     padding:3vh;
     position: relative;
     box-sizing: border-box;
@@ -83,9 +88,10 @@ nav{
 #connect .sm_handles{
     margin:3vh;
     transition: color 500ms;
+    color: #FFF;
 }
 #connect .sm_handles:hover{
-    color: white;
+    color: #EF5324;
     transition: color 900ms;
 }
 @media screen and (max-width:992px) {
@@ -96,76 +102,76 @@ nav{
         margin-left:25px;
     }
 }
+#img-group img{
+    transform: scale(1.0);
+    transition: transform 500ms , box-shadow 300ms;
+    box-shadow: 1px 1px 1px 1px rgba(255,255,255,0.4);
+}
+#img-group img:hover{
+    transform: scale(1.2);
+    box-shadow: 2px 2px 2px 1px  rgba(255,255,255,0.4);
+    transition: transform 1s , box-shadow 300ms ;
+}
+/*#blog{*/
+    /*position: relative;*/
+    /*box-sizing: border-box;*/
+    /*padding: 3vh;*/
+    /*margin-top: 100px;*/
+    /*margin-bottom: 100px;*/
+    /*background: #DE5324;*/
+    /*height: 80%;*/
+/*}*/
+/*#blog::before{*/
+    /*position: absolute;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*content: '';*/
+    /*background: inherit;*/
+    /*z-index: -1;*/
+    /*top: 0;*/
+    /*right: 0;*/
+    /*bottom: 0;*/
+    /*left: 0;*/
+    /*transform-origin: top left;*/
+    /*transform: skewY(-6deg);*/
+/*}*/
 
-#blog{
-    position: relative;
-    box-sizing: border-box;
-    padding: 3vh;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    background: #93dbb3;
-}
-#blog::before{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    content: '';
-    background: inherit;
-    z-index: -1;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    transform-origin: top left;
-    transform: skewY(-6deg);
-}
-
-#blog::after{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    content: '';
-    background: inherit;
-    z-index: -1;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    transform-origin: bottom left;
-    transform: skewY(6deg);
-}
+/*#blog::after{*/
+    /*position: absolute;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*content: '';*/
+    /*background: inherit;*/
+    /*z-index: -1;*/
+    /*top: 0;*/
+    /*right: 0;*/
+    /*bottom: 0;*/
+    /*left: 0;*/
+    /*transform-origin: bottom left;*/
+    /*transform: skewY(6deg);*/
+/*}*/
 
 #what-we-do{
     position: relative;
     box-sizing: border-box;
     padding: 5vh;
-    margin-bottom: 180px;
-    background:#cce8cc;
+    background:#222b34;
 }
-
-#what-we-do::after{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    content: '';
-    background: inherit;
-    z-index: -1;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    transform-origin: top left;
-    transform: skewY(6deg);
+#what-we-do h1 {
+    color: whitesmoke;
 }
-#who-can-join{
+#what-we-do p{
+    color: rgba(255,255,255,0.6);
+}
+#who-can-join-page{
     position: relative;
     box-sizing: border-box;
     margin-bottom: 150px;
-    background: #d4dccd;
+    background: #222b34;
     padding:3vh;
 }
 
-#who-can-join::after{
+#who-can-join-page::after{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -192,6 +198,30 @@ nav{
     position: absolute;
     top:50%;
     left:50%;
+}
+#who-can-join-us::after{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform-origin: top left;
+    transform: skewY(4deg);
+}
+#who-can-join-us{
+    background: #1d252c;
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 150px;
+    padding:3vh;
+}
+.left-box{
+    border-right:1px solid rgba(255,255,255,0.05) ;
 }
 
 

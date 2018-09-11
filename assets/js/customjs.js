@@ -4,8 +4,8 @@
 
 let bannerHead=$('#banner-head').offset().top;
 let whatWeDo=$('#what-we-do').offset().top - 50;
-let whoCanJoin=$('#who-can-join').offset().top  - 50;
-let blog=$('#blog').offset().top  - 50;
+let whoCanJoin=$('#who-can-join-us').offset().top  - 50;
+// let blog=$('#blog').offset().top  - 50;
 let connect=$('#connect').offset().top  - 50;
 
 //smooth scroll code here-----------
@@ -26,13 +26,13 @@ $('#link2').on('click',(e)=>{
     e.preventDefault()
     $('body,html').animate({'scrollTop': whoCanJoin},1000)
 })
-$('#link3').on('click',(e)=>{
-    e.preventDefault()
-    $('body,html').animate({'scrollTop': blog},1500)
-})
+// $('#link3').on('click',(e)=>{
+//     e.preventDefault()
+//     $('body,html').animate({'scrollTop': blog},1500)
+// })
 $('#link4').on('click',(e)=>{
     e.preventDefault()
-    $('body,html').animate({'scrollTop': connect},2000)
+    $('body,html').animate({'scrollTop': connect},1500)
 })
 
 //smooth scroll code ends here-----------
@@ -46,9 +46,9 @@ $(window).on('scroll',()=>{
     if(currentScroll>connect-63){
         $("#link4").focus()
     }
-    else if(currentScroll>blog-63){
-        $("#link3").focus()
-    }
+    // else if(currentScroll>blog-63){
+    //     $("#link3").focus()
+    // }
     else if(currentScroll>whoCanJoin-63){
         $("#link2").focus()
     }
