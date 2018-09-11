@@ -63,7 +63,7 @@ nav{
     background:#f8f8f8;
 }
 #connect{
-    background: #dc493a;
+    background: #1d252c;
     padding:3vh;
     position: relative;
     box-sizing: border-box;
@@ -88,9 +88,10 @@ nav{
 #connect .sm_handles{
     margin:3vh;
     transition: color 500ms;
+    color: #FFF;
 }
 #connect .sm_handles:hover{
-    color: white;
+    color: #EF5324;
     transition: color 900ms;
 }
 @media screen and (max-width:768px) {
@@ -144,29 +145,19 @@ nav{
     position: relative;
     box-sizing: border-box;
     padding: 5vh;
-    margin-bottom: 180px;
-    background:#cce8cc;
+    background:#222b34;
 }
-
-#what-we-do::after{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    content: '';
-    background: inherit;
-    z-index: -1;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    transform-origin: top left;
-    transform: skewY(6deg);
+#what-we-do h1 {
+    color: whitesmoke;
+}
+#what-we-do p{
+    color: rgba(255,255,255,0.6);
 }
 #who-can-join{
     position: relative;
     box-sizing: border-box;
     margin-bottom: 150px;
-    background: #d4dccd;
+    background: #222b34;
     padding:3vh;
 }
 
