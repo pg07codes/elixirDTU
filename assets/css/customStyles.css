@@ -8,21 +8,31 @@ html, body{
 }
 nav{
     padding:0 !important;
-    background: #613F75;
+    background: #4D2638;
 }
 .nav-link{
     font-size: 10pt;
+    color:rgba(255, 255, 255, 0.75) !important;
+    border-bottom:2px solid transparent;
+    transition: border-bottom 600ms;
+}
+.fa-nav {
+    margin-right:5px;
+    color:#9D6A2A;
 }
 #logo{
     margin:15px 25px;
 }
-
-.nav-link:focus{
-    border-bottom: rgba(0,0,0,0.3) solid 3px;
+.nav-link:active,.nav-link:focus{
     outline: none;
 }
+.nav-link:hover{
+    border-bottom:2px solid #EF5324;
+    outline: none;
+    transition: border-bottom 700ms;
+}
 .banner{
-    background:#613F75;
+    background:#4D2638;
 }
 .banner .heading{
     padding:45vh 3vh;
