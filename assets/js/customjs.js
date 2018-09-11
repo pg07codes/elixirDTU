@@ -4,7 +4,7 @@
 
 let bannerHead=$('#banner-head').offset().top;
 let whatWeDo=$('#what-we-do').offset().top - 50;
-let whoCanJoin=$('#who-can-join').offset().top  - 50;
+let whoCanJoin=$('#who-can-join-us').offset().top  - 50;
 let blog=$('#blog').offset().top  - 50;
 let connect=$('#connect').offset().top  - 50;
 
